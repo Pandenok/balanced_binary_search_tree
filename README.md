@@ -9,15 +9,18 @@ Now to the assignment itself.
 Builds a balanced binary search tree from an ordered array of integers. Has basic operations such as `insert`, `delete`, `find`, breadth-first and depth-first different traversal orders (`level_order`, `preorder`, `inorder`, `postorder`) and a variety of additional features, like `balanced?`, `rebalance`, `depth`. As always a picture is worth a thousand words (kudos to @Fensus for `pretty_print`).
 
 <p float = 'left'>
-    <img src="img/demo1.png" alt="Demo driver script" width="300" height="300">
-    <img src="img/demo2.png" alt="Demo driver script" width="300" height="300">
-    <img src="img/demo3.png" alt="Demo driver script" width="300" height="300">
+    <img src="img/demo1.png" alt="Demo driver script" width="400" height="400">
+    <img src="img/demo2.png" alt="Demo driver script" width="400" height="400">
+</p>
+
+<p float = 'left'>
+    <img src="img/demo3.png" alt="Demo driver script" width="400" height="400">
+    <img src="img/demo5.png" alt="Demo driver script" width="400" height="400">
 </p>
 
 This assignment was slightly more challenging than the [linked list](https://github.com/Pandenok/linked_lists) assignment. And there were a couple of difficulties on my way to success, the biggest part due to the lack of attention, not understanding.
 
 For example, when already writing a simple driver script to demo the functionality, out of the blue I'm getting an error `Undefined method '<' for nil` in `insert` method. It turns out there are some nodes with `nil` value in them in my array.
-<!-- It turns out that when building the tree from a random array the `build_tree` method is adding some nodes with `nil` value in them.  -->
 Here is a print out in breadth-first level order:
 ```ruby
 [4, 15, 16, 33, 45, 51, nil, 53, 57, 67, 71, 83, 91, 95, nil]
