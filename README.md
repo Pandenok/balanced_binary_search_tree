@@ -1,5 +1,5 @@
 # Project: Data Structures and Algorithms
-## Project 1: Binary Search Trees
+## Assignment 1: Binary Search Trees
 
 Data structures and algorithms are the heart and soul of computer science and software, so I took some time to go deeper and I've finished additionally a Khan Academy [Algorithms](https://www.khanacademy.org/computing/computer-science/algorithms) and [Logarithms](https://www.khanacademy.org/math/algebra2/x2ec2f6f830c9fb89:logs) Courses. In order to have a different teaching approach and to continue my learning journey in algorithms it'd great to complete the [Stanford’s Coursera 4-Part Algorithm Course](https://www.coursera.org/specializations/algorithms) as well (#future_plans).
 
